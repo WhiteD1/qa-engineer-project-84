@@ -48,7 +48,7 @@
 
   - summary: |
     Успешное оформление заказа
-  status: pass
+  status: fail
 
   ---
 
