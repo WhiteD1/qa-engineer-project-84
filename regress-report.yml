@@ -113,7 +113,7 @@ test-cases:
     Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
     ОС Windows 10
   steps-to-reproduce: |
-    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app/
+    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Добавить в корзину любые товары
     3. Перейти в корзину
     4. Открыть вкладку "Сеть" в DevTools
@@ -123,4 +123,20 @@ test-cases:
   actual-result: |
     Появляется уведомление об успешном оформлении заказа
     В консоли браузера в Devtools сервер присылает 500 ответ
+
+    ---
+
+    - summary: |
+    Язык сайта не сохраняется при обновлении страницы
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. Изменить язык
+    3. Обновить страницу
+  expected-result: |
+    Страница обновляется с сохранением языка
+  actual-result: |
+    Страница обновилась и выбор языка сбросился
   
