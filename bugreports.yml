@@ -99,3 +99,18 @@
     Появилось уведомление об успешном оформлении заказа.
     Элементы макета уведомления неровно расположены. См. файл в папке BugReport_Screenshots/BugReport_5.png
 
+    ---
+
+- summary: |
+    Элементы макета карточки товара неровно расположены
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app/
+    2. Перейти на карточку товара iPhone 9
+  expected-result: | 
+    Показывается подробная информация о товаре
+  actual-result: |
+    Элементы макета карточки товара расположены неровно. См. файл в папке BugReport_Screenshots/BugReport_6.png
+
