@@ -33,3 +33,19 @@
     Выпадающее меню с выбором языка открывается
     Флаг страны языка "English" не отобразился
     Обнаружена некорректная ссылка на картинку флага. См. файл в папке BugReport_Screenshots/BugReport_1.png
+
+    ---
+
+- summary: |
+    Элементы макета накладываются друга на друга на iPhone 12 Pro
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    iPhone 12 Pro
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Открывается выпадающее меню с выбором языка и флагом страны напротив каждого языка
+  actual-result: |
+    Сайт открылся
+    Элементы макета накладываются друга на друга. См. файлы в папке BugReport_Screenshots/BugReport_2.png и BugReport_Screenshots/BugReport_3.png
+
