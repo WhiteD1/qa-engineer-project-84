@@ -5,7 +5,7 @@
   prerequisites: |
     Открыта страница магазина
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - В правом верхнем углу в выпадающем меню с названием "Language" выбрать язык "Russian"
   expected-result: |
@@ -20,7 +20,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствует
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Выбираем любой товар
     - Нажимаем на кнопку "В корзину" на карточке товара
@@ -38,6 +38,7 @@
   prerequisites: |
     Открыта корзина, выбран русский язык
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находится любой товар
   steps:
     - Нажать на кнопку "Удалить" напротив названия товара
@@ -53,7 +54,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Выбираем любой товар
     - Нажимаем на кнопку "В корзину" на карточке товара
@@ -73,6 +74,7 @@
   prerequisites: |
     Открыта корзина, выбран русский язык
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находятся несколько любых товаров
   steps:
     - Нажать на кнопку "Очистить корзину" 
@@ -88,6 +90,7 @@
   prerequisites: |
     Открыта корзина, выбран русский язык
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находится любой товар
   steps:
     - Нажать на кнопку "F5" на клавиатуре или клавишесочетание "Ctrl-R"
@@ -103,6 +106,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Ключевое слово = iphone
   steps:
     - Нажимаем на строку поиска слева, чтобы появился курсор ввода
@@ -120,7 +124,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Нажимаем на карточку товара в любом месте, кроме кнопки "В корзину"
   expected-result: |
@@ -135,6 +139,7 @@
   prerequisites: |
     Открыта корзина, выбран русский язык, открыта вкладка "Сеть" в DevTools 
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Заказан товар = Samsung Universe 9 в кол-ве 1 шт.
     Заказан товар = Samsung Galaxy Book в кол-ве 1 шт.
   steps:
@@ -151,7 +156,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - В столбце слева с названием "Производитель" выбираем любого производителя в кол-ве 1 шт.
     - Нажимаем на чекбокс слева от названия выбранного производителя
@@ -168,7 +173,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Слева в выпадающем меню с названием "Категория" выбрать любую категорию
   expected-result: |
@@ -183,7 +188,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Слева в графе "Цена" установить произвольный ценовой диапозон по схеме "От-До"
   expected-result: |
@@ -198,7 +203,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Отсутствуют
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
     - Слева в графе "Цена" установить ценовой диапозон по схеме "От-До" в отрицательных значениях.
   expected-result: |
@@ -213,6 +218,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
+    Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Ключевое слово = ipont
   steps:
     - Нажимаем на строку поиска слева, чтобы появился курсор ввода
