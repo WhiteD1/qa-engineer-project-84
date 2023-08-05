@@ -173,8 +173,7 @@
     Открыта корзина, выбран русский язык, открыта вкладка "Сеть" в DevTools 
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
-    Заказан товар = Samsung Universe 9 в кол-ве 1 шт.
-    Заказан товар = Samsung Galaxy Book в кол-ве 1 шт.
+    Заказаны любые товары в любом кол-ве 
   steps:
     - Нажимаем на кнопку "Оформить заказ"
   expected-result: |
