@@ -55,7 +55,7 @@ test-cases:
 
   - summary: |
     Успешный просмотр подробной информации о товаре
-  status: pass
+  status: fail
 
   ---
 
