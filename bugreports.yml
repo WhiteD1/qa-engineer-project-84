@@ -49,3 +49,19 @@
     Сайт открылся
     Элементы макета накладываются друга на друга. См. файлы в папке BugReport_Screenshots/BugReport_2.png и BugReport_Screenshots/BugReport_3.png
 
+    ---
+
+- summary: |
+    Элементы макета в корзине неровно расположены
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://hexlet-products-store.vercel.app/
+    2. Добавить несколько любых товаров в корзину
+    3. Перейти в корзину
+  expected-result: | 
+    В корзине показывается список товаров в виде ровной таблицы
+  actual-result: |
+    Элементы макета корзины расположены неровно. См. файл в папке BugReport_Screenshots/BugReport_4.png
+
