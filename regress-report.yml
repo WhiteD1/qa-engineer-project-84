@@ -67,7 +67,7 @@ test-cases:
 
   - summary: |
     Успешный фильтр товаров по производителю
-  status: pass
+  status: fail
 
   ---
 
@@ -79,19 +79,19 @@ test-cases:
 
   - summary: |
     Успешный фильтр товаров по цене
-  status: pass
+  status: fail
 
   ---
 
   - summary: |
     Некорректный фильтр товаров по цене
-  status: pass
+  status: fail
 
   ---
 
   - summary: |
     Некорректный поиск товара по ключевому слову
-  status: pass
+  status: fail
 
   ---
 
