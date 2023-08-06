@@ -167,5 +167,18 @@ test-cases:
   expected-result: | 
     Показываются товары в наличии или надпись "Ничего не найдено!" 
   actual-result: |
-    После п1. любые фильтры не применяются при любых значениях. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4
+    После выполнения п.2 любые фильтры не применяются при любых значениях. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4
+
+    - summary: |
+    Сдвигается макет и увеличиваются поля ввода при поиске по производителю
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. В графе "Производитель" выбрать любого производителя
+  expected-result: | 
+    Применяется фильтр по производителю или надпись "Ничего не найдено!" 
+  actual-result: |
+    После выполнения п.2 макет сдвигается. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4 (00:02 - 00:04)
   
