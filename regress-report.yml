@@ -170,4 +170,19 @@ test-cases:
     В корзине показывается список товаров в виде ровной таблицы
   actual-result: |
     Элементы макета корзины расположены неровно. См. файл в папке BugReport_V2_Screenshots/BugReport_V2_2.png
+
+    ---
+
+- summary: |
+    Фильтр товаров по цене не работает
+  environment: |
+    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. В графе "Цена" установить любой ценовой диапозон по схеме "От-До"
+  expected-result: | 
+    Показываются товары в указанном ценовом диапозоне 
+  actual-result: |
+    Фильтр не применяется при любых значениях, даже отрицательных
   
