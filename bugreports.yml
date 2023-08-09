@@ -17,7 +17,7 @@
     См. файл в папке BugReport_Screenshots/BugReport_7.png
 
 
-    - summary: |
+- summary: |
     Язык сайта не сохраняется при обновлении страницы
   environment: |
     Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
