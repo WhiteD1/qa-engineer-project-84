@@ -4,88 +4,87 @@ test-cases:
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное добавление товара в корзину
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное удаление товара из корзины
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное добавление нескольких товаров в корзину
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное добавление нескольких одинаковых товаров в корзину
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное удаление одного из нескольких одинаковых товаров из корзины
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное удаление всех товаров из корзины
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешное сохранение товаров в корзине после перезагрузки страницы магазина
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешный поиск товара по ключевому слову
   status: pass
 
-  ---
 
-  - summary: |
+- summary: |
     Успешный просмотр подробной информации о товаре
   status: fail
 
 
-  - summary: |
+- summary: |
     Успешное оформление заказа
   status: fail
 
 
-  - summary: |
+- summary: |
     Успешный фильтр товаров по производителю
   status: fail
 
 
-  - summary: |
+- summary: |
     Успешный фильтр товаров по наличию
   status: fail
 
 
-  - summary: |
+- summary: |
     Успешный фильтр товаров по категориям
   status: pass
 
 
-  - summary: |
+- summary: |
     Успешный фильтр товаров по цене
   status: fail
 
 
-  - summary: |
+- summary: |
     Некорректный фильтр товаров по цене
   status: fail
 
 
-  - summary: |
+- summary: |
     Некорректный поиск товара по ключевому слову
   status: fail
   
 
-  - summary: |
+- summary: |
     Проверка поля поиска на XSS
   status: pass
 
