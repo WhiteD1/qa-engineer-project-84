@@ -1,164 +1,164 @@
 test-cases:
-- summary: |
-    Успешная смена языка
-  status: pass
+  - summary: |
+      Успешная смена языка
+    status: pass
 
 
-- summary: |
-    Успешное добавление товара в корзину
-  status: pass
+  - summary: |
+      Успешное добавление товара в корзину
+    status: pass
 
 
-- summary: |
-    Успешное удаление товара из корзины
-  status: pass
+  - summary: |
+      Успешное удаление товара из корзины
+    status: pass
 
 
-- summary: |
-    Успешное добавление нескольких товаров в корзину
-  status: pass
+  - summary: |
+      Успешное добавление нескольких товаров в корзину
+    status: pass
 
 
-- summary: |
-    Успешное добавление нескольких одинаковых товаров в корзину
-  status: pass
+  - summary: |
+      Успешное добавление нескольких одинаковых товаров в корзину
+    status: pass
 
 
-- summary: |
-    Успешное удаление одного из нескольких одинаковых товаров из корзины
-  status: pass
+  - summary: |
+      Успешное удаление одного из нескольких одинаковых товаров из корзины
+    status: pass
 
 
-- summary: |
-    Успешное удаление всех товаров из корзины
-  status: pass
+  - summary: |
+      Успешное удаление всех товаров из корзины
+    status: pass
 
 
-- summary: |
-    Успешное сохранение товаров в корзине после перезагрузки страницы магазина
-  status: pass
+  - summary: |
+      Успешное сохранение товаров в корзине после перезагрузки страницы магазина
+    status: pass
 
 
-- summary: |
-    Успешный поиск товара по ключевому слову
-  status: pass
+  - summary: |
+      Успешный поиск товара по ключевому слову
+    status: pass
 
 
-- summary: |
-    Успешный просмотр подробной информации о товаре
-  status: fail
+  - summary: |
+      Успешный просмотр подробной информации о товаре
+    status: fail
 
 
-- summary: |
-    Успешное оформление заказа
-  status: fail
+  - summary: |
+      Успешное оформление заказа
+    status: fail
 
 
-- summary: |
-    Успешный фильтр товаров по производителю
-  status: fail
+  - summary: |
+      Успешный фильтр товаров по производителю
+    status: fail
 
 
-- summary: |
-    Успешный фильтр товаров по наличию
-  status: fail
+  - summary: |
+      Успешный фильтр товаров по наличию
+    status: fail
 
 
-- summary: |
-    Успешный фильтр товаров по категориям
-  status: pass
+  - summary: |
+      Успешный фильтр товаров по категориям
+    status: pass
 
 
-- summary: |
-    Успешный фильтр товаров по цене
-  status: fail
+  - summary: |
+      Успешный фильтр товаров по цене
+    status: fail
 
 
-- summary: |
-    Некорректный фильтр товаров по цене
-  status: fail
+  - summary: |
+      Некорректный фильтр товаров по цене
+    status: fail
 
 
-- summary: |
-    Некорректный поиск товара по ключевому слову
-  status: fail
+  - summary: |
+      Некорректный поиск товара по ключевому слову
+    status: fail
   
 
-- summary: |
-    Проверка поля поиска на XSS
-  status: pass
+  - summary: |
+      Проверка поля поиска на XSS
+    status: pass
 
 
 
-  bugreports:
-- summary: |
-    Элементы макета карточки товара неверно изменяют форму
-  environment: |
-    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выбрать производителя "OPPO"
-  expected-result: | 
-    Показываются карточки товаров выбранного производителя
-  actual-result: |
-    Карточки товаров выбранного производителя некорректно отображаются. См. файл в папке BugReport_V2_Screenshots/BugReport_V2_1.png
+bugreports:
+  - summary: |
+      Элементы макета карточки товара неверно изменяют форму
+    environment: |
+      Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Выбрать производителя "OPPO"
+    expected-result: | 
+      Показываются карточки товаров выбранного производителя
+    actual-result: |
+      Карточки товаров выбранного производителя некорректно отображаются. См. файл в папке BugReport_V2_Screenshots/BugReport_V2_1.png
 
 
-- summary: |
-    Элементы макета корзины неровно расположены
-  environment: |
-    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Добавить несколько любых товаров в корзину
-    3. Перейти в корзину
-  expected-result: | 
-    В корзине показывается список товаров в виде ровной таблицы
-  actual-result: |
-    Элементы макета корзины расположены неровно. См. файл в папке BugReport_V2_Screenshots/BugReport_V2_2.png
+  - summary: |
+      Элементы макета корзины неровно расположены
+    environment: |
+      Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Добавить несколько любых товаров в корзину
+      3. Перейти в корзину
+    expected-result: | 
+      В корзине показывается список товаров в виде ровной таблицы
+    actual-result: |
+      Элементы макета корзины расположены неровно. См. файл в папке BugReport_V2_Screenshots/BugReport_V2_2.png
 
 
-- summary: |
-    Фильтр товаров по цене не работает
-  environment: |
-    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. В графе "Цена" установить любой ценовой диапозон по схеме "От-До"
-  expected-result: | 
-    Показываются товары в указанном ценовом диапозоне 
-  actual-result: |
-    Фильтр не применяется при любых значениях, даже отрицательных
+  - summary: |
+      Фильтр товаров по цене не работает
+    environment: |
+      Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. В графе "Цена" установить любой ценовой диапозон по схеме "От-До"
+    expected-result: | 
+      Показываются товары в указанном ценовом диапозоне 
+    actual-result: |
+      Фильтр не применяется при любых значениях, даже отрицательных
 
 
-- summary: |
-    Фильтр товаров по наличию приводит к поломке всех остальных фильтров
-  environment: |
-    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. В графе "В наличии" убрать галочку
-    3. В графе "Категория" выбрать любую категорию
-    4. В графе "Производитель" выбрать любого производителя
-    5. В поиске написать любое слово
-  expected-result: | 
-    Показываются товары в наличии или надпись "Ничего не найдено!" 
-  actual-result: |
-    После выполнения п.2 любые фильтры не применяются при любых значениях. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4
+  - summary: |
+      Фильтр товаров по наличию приводит к поломке всех остальных фильтров
+    environment: |
+      Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. В графе "В наличии" убрать галочку
+      3. В графе "Категория" выбрать любую категорию
+      4. В графе "Производитель" выбрать любого производителя
+      5. В поиске написать любое слово
+    expected-result: | 
+      Показываются товары в наличии или надпись "Ничего не найдено!" 
+    actual-result: |
+      После выполнения п.2 любые фильтры не применяются при любых значениях. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4
 
-- summary: |
-    Сдвигается макет и увеличиваются поля ввода при поиске по производителю
-  environment: |
-    Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
-    ОС Windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. В графе "Производитель" выбрать любого производителя
-  expected-result: | 
-    Применяется фильтр по производителю или надпись "Ничего не найдено!" 
-  actual-result: |
-    После выполнения п.2 макет сдвигается. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4 (00:02 - 00:04)
+  - summary: |
+      Сдвигается макет и увеличиваются поля ввода при поиске по производителю
+    environment: |
+      Mozilla Firefox   116.0 (Официальная сборка) (64 бит)
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. В графе "Производитель" выбрать любого производителя
+    expected-result: | 
+      Применяется фильтр по производителю или надпись "Ничего не найдено!" 
+    actual-result: |
+      После выполнения п.2 макет сдвигается. См. видео в папке BugReport_V2_Video/BugReport_V2_Vid_1.mp4 (00:02 - 00:04)
