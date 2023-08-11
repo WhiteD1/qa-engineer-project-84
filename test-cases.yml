@@ -34,10 +34,9 @@
   requirement: |
     При правильном выполнении действий товар должен удалиться из корзины
   prerequisites: |
-    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык, в корзине находится любой товар
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
-    В корзине находится любой товар
   steps:
     - Нажать на кнопку "Удалить" напротив названия товара
   expected-result: |
