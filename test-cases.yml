@@ -3,7 +3,7 @@
   requirement: |
     При правильном выполнении действий язык сайта должен измениться на выбранный
   prerequisites: |
-    Открыта страница магазина
+    Открыта страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -17,7 +17,7 @@
   requirement: |
     При правильном выполнении действий товар должен добавиться в корзину
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -34,7 +34,7 @@
   requirement: |
     При правильном выполнении действий товар должен удалиться из корзины
   prerequisites: |
-    Открыта корзина, выбран русский язык
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находится любой товар
@@ -49,7 +49,7 @@
   requirement: |
     При правильном выполнении действий все выбранные товары должны добавиться в корзину
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/cart, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -68,7 +68,7 @@
   requirement: |
     При правильном выполнении действий выбранный товар добавляется в корзину в кол-ве 2 шт.
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -85,7 +85,7 @@
   requirement: |
     При правильном выполнении действий кол-во товара уменьшается на 1 шт.
   prerequisites: |
-    Открыта корзина, выбран русский язык, добавлены товары в кол-ве 2 шт.
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык, добавлены товары в кол-ве 2 шт.
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -99,7 +99,7 @@
   requirement: |
     При правильном выполнении действий все товары должны удалиться из корзины
   prerequisites: |
-    Открыта корзина, выбран русский язык
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находятся несколько любых товаров
@@ -114,7 +114,7 @@
   requirement: |
     При правильном выполнении действий товар должен остаться в корзине без изменений информации о нем
   prerequisites: |
-    Открыта корзина, выбран русский язык
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     В корзине находится любой товар
@@ -129,7 +129,7 @@
   requirement: |
     При правильном выполнении действий должны отображаться только товары с указанным названием
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Ключевое слово = iphone
@@ -146,7 +146,7 @@
     При правильном выполнении действий на весь экран должна отобразиться карточка товара 
     с подробной информацией без перезагрузки страницы
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -160,7 +160,7 @@
   requirement: |
     При правильном выполнении действий должно появиться уведомление об успешном оформлении заказа
   prerequisites: |
-    Открыта корзина, выбран русский язык, открыта вкладка "Сеть" в DevTools 
+    Открыта корзина https://hexlet-products-store.vercel.app/cart, выбран русский язык, открыта вкладка "Сеть" в DevTools 
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Заказаны любые товары в любом кол-ве 
@@ -175,7 +175,7 @@
   requirement: |
     При правильном выполнении действий должны отображаться только товары по выбранному производителю
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -192,7 +192,7 @@
     При правильном выполнении действий должны отображаться только товары, которые есть в наличии 
     или надпись "Ничего не найдено!"
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -207,7 +207,7 @@
   requirement: |
     При правильном выполнении действий должны отображаться только товары выбранной категории
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -221,7 +221,7 @@
   requirement: |
     При правильном выполнении действий должны отображаться только товары в установленном ценовом диапозоне
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -235,7 +235,7 @@
   requirement: |
     При выполнении указанных действий на странице магазина должна отображаться надпись "Ничего не найдено!"
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
   steps:
@@ -249,7 +249,7 @@
   requirement: |
     При выполнении указанных действий на странице магазина должна отображаться надпись "Ничего не найдено!"
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Ключевое слово = ipont
@@ -265,7 +265,7 @@
   requirement: |
     При выполнении указанных действий верстка страницы не должна измениться и отображается надпись "Ничего не найдено!"
   prerequisites: |
-    Открыта страница магазина, выбран русский язык
+    Открыта страница магазина https://hexlet-products-store.vercel.app/, выбран русский язык
   test-data: |
     Браузер Google Chrome, Mozilla FireFox, Opera, Yandex, Microsoft Edge
     Ключевые слова = <h1>ПРИВЕТ!</h1>
